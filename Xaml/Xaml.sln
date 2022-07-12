@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Property To Tag", "01. Property To Tag", "{C4262CC7-4C88-42FA-ADC3-C6B37F3548C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Background_01_Property", "01. Property To Tag\Background_01_Property\Background_01_Property.csproj", "{B6544BD2-BABE-4AD1-84CB-4D1FC8F88FC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Background_02_Tag", "01. Property To Tag\Background_02_Tag\Background_02_Tag.csproj", "{41BAEC42-0EDC-47CC-81AD-38AFBF71FB4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Background_03_Tag-Complex", "01. Property To Tag\Background_03_Tag-Complex\Background_03_Tag-Complex.csproj", "{43483A03-97AA-455D-AE9C-B3B475405F15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Property To Style", "02. Property To Style", "{67E8EE77-7059-4143-9979-D9B3493171D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Background_01_Property", "02. Property To Style\Background_01_Property\Background_01_Property.csproj", "{E7D8455A-344B-4CE5-8451-37BA407B33DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Background_02_Style", "02. Property To Style\Background_02_Style\Background_02_Style.csproj", "{082086E7-7850-4322-8AB2-6F483CA0EB9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Background_03_WindowResource", "02. Property To Style\Background_03_WindowResource\Background_03_WindowResource.csproj", "{A726F123-BF61-461C-8872-0CCABE15410E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Background_04_WindowResource_Key", "02. Property To Style\Background_04_WindowResource_Key\Background_04_WindowResource_Key.csproj", "{86B89BB0-CDBC-41FE-94E0-49CAFCA1A8AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Background_05_ApplicationResource", "02. Property To Style\Background_05_ApplicationResource\Background_05_ApplicationResource.csproj", "{1D235A0E-C8E7-446C-B01B-5E1F6F950CEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6544BD2-BABE-4AD1-84CB-4D1FC8F88FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6544BD2-BABE-4AD1-84CB-4D1FC8F88FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6544BD2-BABE-4AD1-84CB-4D1FC8F88FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6544BD2-BABE-4AD1-84CB-4D1FC8F88FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BAEC42-0EDC-47CC-81AD-38AFBF71FB4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BAEC42-0EDC-47CC-81AD-38AFBF71FB4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BAEC42-0EDC-47CC-81AD-38AFBF71FB4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BAEC42-0EDC-47CC-81AD-38AFBF71FB4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43483A03-97AA-455D-AE9C-B3B475405F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43483A03-97AA-455D-AE9C-B3B475405F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43483A03-97AA-455D-AE9C-B3B475405F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43483A03-97AA-455D-AE9C-B3B475405F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7D8455A-344B-4CE5-8451-37BA407B33DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7D8455A-344B-4CE5-8451-37BA407B33DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7D8455A-344B-4CE5-8451-37BA407B33DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7D8455A-344B-4CE5-8451-37BA407B33DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{082086E7-7850-4322-8AB2-6F483CA0EB9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{082086E7-7850-4322-8AB2-6F483CA0EB9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{082086E7-7850-4322-8AB2-6F483CA0EB9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{082086E7-7850-4322-8AB2-6F483CA0EB9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A726F123-BF61-461C-8872-0CCABE15410E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A726F123-BF61-461C-8872-0CCABE15410E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A726F123-BF61-461C-8872-0CCABE15410E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A726F123-BF61-461C-8872-0CCABE15410E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86B89BB0-CDBC-41FE-94E0-49CAFCA1A8AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86B89BB0-CDBC-41FE-94E0-49CAFCA1A8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86B89BB0-CDBC-41FE-94E0-49CAFCA1A8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86B89BB0-CDBC-41FE-94E0-49CAFCA1A8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D235A0E-C8E7-446C-B01B-5E1F6F950CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D235A0E-C8E7-446C-B01B-5E1F6F950CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D235A0E-C8E7-446C-B01B-5E1F6F950CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D235A0E-C8E7-446C-B01B-5E1F6F950CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6544BD2-BABE-4AD1-84CB-4D1FC8F88FC2} = {C4262CC7-4C88-42FA-ADC3-C6B37F3548C2}
+		{41BAEC42-0EDC-47CC-81AD-38AFBF71FB4D} = {C4262CC7-4C88-42FA-ADC3-C6B37F3548C2}
+		{43483A03-97AA-455D-AE9C-B3B475405F15} = {C4262CC7-4C88-42FA-ADC3-C6B37F3548C2}
+		{E7D8455A-344B-4CE5-8451-37BA407B33DC} = {67E8EE77-7059-4143-9979-D9B3493171D7}
+		{082086E7-7850-4322-8AB2-6F483CA0EB9B} = {67E8EE77-7059-4143-9979-D9B3493171D7}
+		{A726F123-BF61-461C-8872-0CCABE15410E} = {67E8EE77-7059-4143-9979-D9B3493171D7}
+		{86B89BB0-CDBC-41FE-94E0-49CAFCA1A8AB} = {67E8EE77-7059-4143-9979-D9B3493171D7}
+		{1D235A0E-C8E7-446C-B01B-5E1F6F950CEA} = {67E8EE77-7059-4143-9979-D9B3493171D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC9FEDCB-EAFE-427A-B72C-3A0DBB216671}
+	EndGlobalSection
+EndGlobal

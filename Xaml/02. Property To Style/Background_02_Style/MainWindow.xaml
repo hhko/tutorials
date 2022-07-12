@@ -1,0 +1,31 @@
+﻿<Window x:Class="Background_02_Style.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Background_02_Style"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background" Value="Yellow" />
+                </Style>
+            </Button.Style>
+            <Button.Content>
+                Button 1
+            </Button.Content>
+        </Button>
+        <Button Background="Yellow">Button 1</Button>
+        <Button Background="Yellow" Content="Button2"/>
+        <Button>
+            <Button.Background>
+                Yellow
+            </Button.Background>
+            <Button.Content>
+                Button3
+            </Button.Content>
+        </Button>
+    </StackPanel>
+</Window>
