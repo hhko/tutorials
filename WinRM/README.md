@@ -1,4 +1,5 @@
 ## 참고 자료
+- https://blog.yucas.net/2021/03/25/powershell-remoting-from-linux-to-windows-centos-7/
 - [Secure WinRM for Ansible (Certificates) in 10 Steps [How-To]](https://adamtheautomator.com/ansible-winrm/)
 - [Introducing PSRemoting Linux and Windows : How to Guide](https://adamtheautomator.com/psremoting-linux/#Connecting_tofrom_WindowsLinux_with_Password_Authentication)
 - [WinRM 세팅 101](https://gist.github.com/ajchemist/5ae3b87add56d39a5b051d860b8bc781)
