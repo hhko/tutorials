@@ -7,28 +7,30 @@
 - [Windows 원격 관리](https://runebook.dev/ko/docs/ansible/user_guide/windows_winrm)
 
 
-## 윈도우 -(로컬)-> 윈도우
+## Windows -(Local)-> Windows
 ```
 Set-Service -Name "WinRM" -StartupType Automatic
 Start-Service WinRM
 Enable-PSRemoting -SkipNetworkProfileCheck -Force
 Set-Item WSMan:\localhost\Client\TrustedHosts -Force -Value *
-Invoke-Command -Computername 192.168.100.103 -ScriptBlock { dir c:\ }
+# Self-IP : 127.0.0.1
+Invoke-Command -Computername Self-IP -ScriptBlock { dir c:\ }
 ```
 
-## 윈도우 -(원격)-> 윈도우
+## Windows -(Remote)-> Windows
 ```shell
-# 윈도우 제어 서버
+# Windows 제어되는 서버
 Set-Service -Name "WinRM" -StartupType Automatic
 Start-Service WinRM
 Enable-PSRemoting -SkipNetworkProfileCheck -Force
 Set-Item WSMan:\localhost\Client\TrustedHosts -Force -Value *
 
-# 윈도우 클라이언트
+# Windows 제어하는 서버
 Set-Service -Name "WinRM" -StartupType Automatic
 Start-Service WinRM
 Enable-PSRemoting -SkipNetworkProfileCheck -Force
 Set-Item WSMan:\localhost\Client\TrustedHosts -Force -Value *
 $creds = Get-Credential
-Invoke-Command -Computername 192.168.100.103 -ScriptBlock { dir c:\ } -Authentication Negotiate -Credential $creds
+# Target-IP : xxx.xxx.xxx.xxx
+Invoke-Command -Computername Target-IP -ScriptBlock { dir c:\ } -Authentication Negotiate -Credential $creds
 ```
