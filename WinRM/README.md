@@ -5,6 +5,7 @@
 - [WinRM 세팅 101](https://gist.github.com/ajchemist/5ae3b87add56d39a5b051d860b8bc781)
 - [HTTP를 사용하도록 WinRM 구성](https://docs.vmware.com/kr/vRealize-Orchestrator/8.8/com.vmware.vrealize.orchestrator-use-plugins.doc/GUID-D4ACA4EF-D018-448A-866A-DECDDA5CC3C1.html)
 - [Windows 원격 관리](https://runebook.dev/ko/docs/ansible/user_guide/windows_winrm)
+- [Ubuntu에 PowerShell 설치](https://docs.microsoft.com/ko-kr/powershell/scripting/install/install-ubuntu?view=powershell-7.2)
 
 
 ## Windows -(Local)-> Windows
