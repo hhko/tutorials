@@ -59,7 +59,7 @@ Invoke-Command `
   -ScriptBlock { cmd.exe /c dir c:\ }
 Invoke-Command `
   -Computername 127.0.0.1 `
-  -ScriptBlock { powsershell.exe Get-ChildItem -Path c:\ }
+  -ScriptBlock { powershell.exe Get-ChildItem -Path c:\ }
 ```
 
 ## Windows -(Remote)-> Windows
@@ -91,7 +91,7 @@ Invoke-Command `
   -Credential $creds
 Invoke-Command `
   -Computername Target-IP `
-  -ScriptBlock { powsershell.exe Get-ChildItem -Path c:\ } ` 
+  -ScriptBlock { powershell.exe Get-ChildItem -Path c:\ } ` 
   -Authentication Negotiate `
   -Credential $creds
 ```
