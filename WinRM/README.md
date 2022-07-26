@@ -4,6 +4,7 @@
 - https://adamtheautomator.com/python-winrm/
 - https://docs.vmware.com/kr/vRealize-Orchestrator/8.8/com.vmware.vrealize.orchestrator-use-plugins.doc/GUID-2F7DA33F-E427-4B22-8946-03793C05A097.html
 - https://adamtheautomator.com/winrm-ssl/
+- https://digitalist.global/article/winrm-ansible/
 
 <br/>
 
