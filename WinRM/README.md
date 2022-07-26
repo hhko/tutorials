@@ -1,5 +1,6 @@
 ## 참고 자료
 - https://ploz.tistory.com/m/entry/9-windows-winrm을-이용한-ansible-사용
+- https://adamtheautomator.com/python-winrm/
 - [PowerShell Remoting from Linux Centos 7 to Windows](https://blog.yucas.net/2021/03/25/powershell-remoting-from-linux-to-windows-centos-7/)
 - [Secure WinRM for Ansible (Certificates) in 10 Steps [How-To]](https://adamtheautomator.com/ansible-winrm/)
 - [Introducing PSRemoting Linux and Windows : How to Guide](https://adamtheautomator.com/psremoting-linux/#Connecting_tofrom_WindowsLinux_with_Password_Authentication)
