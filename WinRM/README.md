@@ -19,7 +19,7 @@
 
 ## Windows -(Local)-> Windows
 ```shell
-Set-Service -Name "WinRM" -StartupType Automatic
+Set-Service -Name WinRM -StartupType Automatic
 Start-Service WinRM
 Enable-PSRemoting -SkipNetworkProfileCheck -Force
 Set-Item WSMan:\localhost\Client\TrustedHosts -Force -Value *
@@ -37,7 +37,7 @@ Invoke-Command
 #
 # Controlled Windows : 제어되는 윈도우
 #
-Set-Service -Name "WinRM" -StartupType Automatic
+Set-Service -Name WinRM -StartupType Automatic
 Start-Service WinRM
 Enable-PSRemoting -SkipNetworkProfileCheck -Force
 Set-Item WSMan:\localhost\Client\TrustedHosts -Force -Value *
