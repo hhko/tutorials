@@ -18,29 +18,51 @@
 
 
 ## Windows -(Local)-> Windows
-```
+```shell
 Set-Service -Name "WinRM" -StartupType Automatic
 Start-Service WinRM
 Enable-PSRemoting -SkipNetworkProfileCheck -Force
 Set-Item WSMan:\localhost\Client\TrustedHosts -Force -Value *
 # Self-IP : 127.0.0.1
-Invoke-Command -Computername Self-IP -ScriptBlock { dir c:\ }
+Invoke-Command 
+  -Computername Self-IP 
+  -ScriptBlock { cmd.exe /c dir c:\ }
+Invoke-Command 
+  -Computername Target-IP 
+  -ScriptBlock { powsershell.exe Get-Children -Path c:\ }
 ```
 
 ## Windows -(Remote)-> Windows
 ```shell
+#
 # Controlled Windows : 제어되는 윈도우
+#
 Set-Service -Name "WinRM" -StartupType Automatic
 Start-Service WinRM
 Enable-PSRemoting -SkipNetworkProfileCheck -Force
 Set-Item WSMan:\localhost\Client\TrustedHosts -Force -Value *
 
+#
 # Controlling Windows : 제어하는 윈도우
+#
 Set-Service -Name "WinRM" -StartupType Automatic
 Start-Service WinRM
 Enable-PSRemoting -SkipNetworkProfileCheck -Force
 Set-Item WSMan:\localhost\Client\TrustedHosts -Force -Value *
 $creds = Get-Credential
 # Target-IP : xxx.xxx.xxx.xxx
-Invoke-Command -Computername Target-IP -ScriptBlock { dir c:\ } -Authentication Negotiate -Credential $creds
+Invoke-Command 
+  -Computername Target-IP 
+  -ScriptBlock { cmd.exe /c dir c:\ } 
+  -Authentication Negotiate 
+  -Credential $creds
+Invoke-Command 
+  -Computername Target-IP 
+  -ScriptBlock { powsershell.exe Get-Children -Path c:\ } 
+  -Authentication Negotiate 
+  -Credential $creds
+```
+
+## Ubuntu -(Remote)-> Windows
+```shell
 ```
