@@ -1,4 +1,5 @@
 ## 참고 자료
+- https://youtu.be/jUgHXBpcRM4
 - https://ploz.tistory.com/m/entry/9-windows-winrm을-이용한-ansible-사용
 - https://adamtheautomator.com/python-winrm/
 - https://docs.vmware.com/kr/vRealize-Orchestrator/8.8/com.vmware.vrealize.orchestrator-use-plugins.doc/GUID-2F7DA33F-E427-4B22-8946-03793C05A097.html
