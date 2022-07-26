@@ -15,6 +15,9 @@
   - Negotiate : Kerberos with an NTLM fallback
   - Kerberos : with no NTLM fallback
   - CredSSP
+- [ ] Ubuntu -(포트 오픈 확인)-> Windows
+- [ ] Ubuntu PoserShell 패키지 오프라인 설치
+- [ ] Ubuntu gss-ntlmssp 패키지 오프라인 설치
 
 ## Posershell 명령
 - `Get-PSSessionConfiguration`
@@ -106,7 +109,7 @@ Invoke-Command `
 root@ ... # apt-get install -y gss-ntlmssp 
 
 #
-# 1. PoserShell 설치 : https://docs.microsoft.com/ko-kr/powershell/scripting/install/install-ubuntu?view=powershell-7.2
+# 2. PoserShell 설치 : https://docs.microsoft.com/ko-kr/powershell/scripting/install/install-ubuntu?view=powershell-7.2
 #
 # Update the list of packages
 sudo apt-get update
